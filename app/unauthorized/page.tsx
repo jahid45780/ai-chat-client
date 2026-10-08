@@ -1,0 +1,1 @@
+import Link from 'next/link';import {ShieldAlert,ArrowLeft} from 'lucide-react';export default function Unauthorized(){return <main className="simple-page"><ShieldAlert size={36}/><h1>Access unavailable</h1><p>You don’t have permission to view this page.</p><Link className="primary-button" href="/chat"><ArrowLeft size={16}/> Return to chat</Link></main>}

@@ -1,0 +1,8 @@
+.code-wrap .hljs-comment,.code-wrap .hljs-quote{color:#8b95a7}
+.code-wrap .hljs-keyword,.code-wrap .hljs-selector-tag,.code-wrap .hljs-literal,.code-wrap .hljs-section{color:#c792ea}
+.code-wrap .hljs-string,.code-wrap .hljs-attr,.code-wrap .hljs-template-tag{color:#c3e88d}
+.code-wrap .hljs-number,.code-wrap .hljs-symbol,.code-wrap .hljs-bullet{color:#f78c6c}
+.code-wrap .hljs-title,.code-wrap .hljs-function,.code-wrap .hljs-title.function_{color:#82aaff}
+.code-wrap .hljs-built_in,.code-wrap .hljs-type,.code-wrap .hljs-class .hljs-title{color:#ffcb6b}
+.code-wrap .hljs-variable,.code-wrap .hljs-params{color:#f07178}
+.code-wrap .hljs-meta,.code-wrap .hljs-doctag{color:#89ddff}

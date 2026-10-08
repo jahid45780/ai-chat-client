@@ -1,0 +1,2 @@
+import {api} from './client';import {User} from '@/types';
+export const authApi={me:async()=> (await api.get<{data:{user:User}}>('/auth/me')).data.data.user,login:async(email:string,password:string)=> (await api.post<{data:{user:User}}>('/auth/login',{email,password})).data.data.user,register:async(name:string,email:string,password:string)=> (await api.post<{data:{user:User}}>('/auth/register',{name,email,password})).data.data.user,logout:async()=>api.post('/auth/logout')};
